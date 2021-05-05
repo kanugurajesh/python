@@ -12,7 +12,7 @@ reserve = reserve[::-1]
 print(f"the reverse of the list {list1} is {reversen}")
 print(f"the reverse of the list {list1} is {reserve}")
 for j in range(len(vijay)//2):
-    vijay[j], vijay[len(vijay)-j-1] = vijay[len(vijay)-j-1],vijay[j]
+    vijay[j], vijay[len(vijay)-j-1] = vijay[len(vijay)-j-1], vijay[j]
 print(f"the third type of reversion of list {list1} is {vijay}")
-if reversen==reserve and reserve==vijay:
+if reversen == reserve and reserve == vijay:
     print("all the reverse methods are giving the same answer")
